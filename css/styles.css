@@ -1,0 +1,127 @@
+/* HTML Elements */
+body {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    margin: 0;
+    background-color: #eafbff;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: "Kanit", sans-serif;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #6c8dcb;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    font-family: "Inconsolata", monospace;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    border: dotted #000000 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* Class Elements */
+.top-container {
+    background-color: #6c8dcb;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #eafbff;
+    margin: 10px 0 50px 0;
+}
+
+.bottom-container {
+    background-color: #6c8dcb;
+    padding: 40px 0 10px;
+}
+
+.skill-row {
+    margin: 100px auto 180px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 30px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 500px;
+}
+
+.piano-image {
+    float: left;
+    margin-right: 30px;
+}
+
+.sports-image {
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.mountain-image {
+    margin-bottom: -3px;
+}
+
+.footer-link {
+    color: #000000;
+}
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 22px;
+    background: #557182;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6e9dcc;
+    text-decoration: none;
+  }
+
+  .copyright {
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 10px 0;
+  }
